@@ -1,0 +1,110 @@
+@import "header.css";
+@import "footer.css";
+@import "blog-post.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@500&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: #444;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.blog-wrapper {
+  display: flex;
+  font-size: 16px;
+  text-align: center;
+}
+.img-width {
+  width: 100%;
+}
+.flex-item {
+  flex: 1;
+  border: 1px solid grey;
+  margin: 10px;
+  padding: 10px;
+}
+.date {
+  font-size: 15px;
+  margin: -2px 0 0 0;
+  font-family: "Merriweather", serif;
+}
+.blog-post,
+.read-more {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  font-size: 14px;
+}
+.read-more > a {
+  font-weight: 600;
+  text-decoration: underline;
+}
+.read-more a::after {
+    content: " →";
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+a:hover {
+  color: blue;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 28px;
+  font-size: 14px;
+  padding: .4em 1em;
+}
+h3,
+h2,
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+h2,
+h3 {
+  text-transform: capitalize;
+  letter-spacing: 0.1em;
+  color: #1c1ce6;
+}
+.fa-github  {
+    color: white;
+    font-size: 30px;
+}
+
+/*--media-queries ------------------------------------------- */
+@media only screen and (max-device-width: 480px) {
+  .blog-wrapper {
+     display: block;
+  }
+  .footer-container {
+    display: block;
+  }
+ .social-link {
+   margin-bottom: 18px;
+ }
+ .blog-container {
+   display: block;
+ }
+
+ .img-post {
+  width: 85%;
+}
+.footer-container,
+ .date ,
+ .blog-post-wrapper > h3
+ {
+  text-align: center;
+}
+.blog-post-wrapper {
+  margin: 0;
+}
+}

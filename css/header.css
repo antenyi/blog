@@ -1,0 +1,16 @@
+header {
+    border-bottom: 1px solid rgba(0,0,0,.14);
+}
+nav {
+    display: flex;
+    align-content: center;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.nav-link > li{
+    padding-left: 20px;
+    text-transform: capitalize;
+    display: inline;
+    list-style: none;
+}
