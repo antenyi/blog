@@ -11,12 +11,13 @@ footer {
   padding: .8em;
 }
 .btn {
-  border: 0.1em solid #ffffff;
-  padding: 5px 8px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 17px;
+  background: #0f0919;
+}
+.btn > a{
   color: #ffffff;
-  border-radius: 3px;
-  display: inline-block;
-  background: linear-gradient(top, #f9f9f9, #e3e3e3);
 }
 
 .input-file {
