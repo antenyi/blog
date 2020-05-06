@@ -64,6 +64,13 @@ p {
   font-size: 14px;
   padding: .4em 1em;
 }
+h1 > a {
+  color: #f53816;
+  font-weight: 700;
+}
+h2 {
+  color: #1c1ce6;
+}
 h3,
 h2,
 h1 {
@@ -73,7 +80,6 @@ h2,
 h3 {
   text-transform: capitalize;
   letter-spacing: 0.1em;
-  color: #1c1ce6;
 }
 .fa-github  {
     color: white;
